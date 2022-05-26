@@ -1,0 +1,43 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Servicios</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-slides pager="true" [options]="slideOpts">
+    <ion-slide>
+      <ion-card mode="ios">
+        <img src="https://wac-cdn.atlassian.com/dam/jcr:250ecb2c-bec2-4422-a702-9a4118fcaa09/Atlassian_ITOperations.png?cdnVersion=363" alt="">
+        <ion-card-header>
+          <ion-card-subtitle>DEVOPS Y OPERACIONESA</ion-card-subtitle>
+          <ion-card-title> Gestión de las incidencias </ion-card-title>
+        </ion-card-header>
+      </ion-card>
+    </ion-slide>
+    <ion-slide>
+      <ion-card>
+        <img src="https://wac-cdn.atlassian.com/dam/jcr:9ae67692-d143-4206-8ae1-63156178856c/Atlassian_IT_Service&Support.png?cdnVersion=363" alt="">
+        <ion-card-header>
+          <ion-card-subtitle> SERVICIO Y SOPORTE </ion-card-subtitle>
+          <ion-card-title>  Gestión de servicios de TI  </ion-card-title>
+        </ion-card-header>
+        <ion-card-content>Al contrario de lo que ocurre con las costosas y complejas soluciones de ITSM que entorpecen la entrega rápida de servicios.</ion-card-content>
+      </ion-card>
+    </ion-slide>
+    <ion-slide>
+      <ion-card>
+        <img src="https://wac-cdn.atlassian.com/dam/jcr:04835d0d-8ae2-4617-ac76-5f6b09a09c7e/Atlassian_ITApplications.png?cdnVersion=363" alt="">
+        <ion-card-header>
+          <ion-card-subtitle>INSTALACIONES Y MUCHO MÁS</ion-card-subtitle>
+          <ion-card-title>  Gestión de servicios empresariales  </ion-card-title>
+        </ion-card-header>
+        <ion-card-content>Los productos son el eje de los equipos.</ion-card-content>
+      </ion-card>
+    </ion-slide>
+  </ion-slides>
+
+</ion-content>
